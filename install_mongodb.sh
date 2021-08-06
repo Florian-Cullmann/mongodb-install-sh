@@ -6,3 +6,4 @@ apt-get install -y mongodb-org
 systemctl start mongod
 systemctl status mongod
 pecl install mongodb
+service apache2 restart
